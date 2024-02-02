@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yeseva One">
+    <link rel="stylesheet" href="https://use.typekit.net/hsy3ncc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Lynn Sabieddine | Python Anime Project</title>
+
+</head>
+
+<body>
+
+    <a href = "#main" id="skip">Skip to Main content</a>
+
+    <nav>
+
+        <ul class="navigation">
+            <div class="lynn">
+            <li><a class="lynn" href="index.html">Lynn Sabieddine</a></li>
+            </div>
+            <div class="rest">
+            <li><a class="active" href="ux.html"> <img class="heart" src="img/filledheart.png" alt="heart" />UX</a></li>
+            <li><a href="art.html"><img class="heart" src="img/circle_button.png" alt="heart" />Art</a></li>
+            <li><a href="opinions.html"><img class="heart" src="img/circle_button.png" alt="heart" />Words</a></li>
+            <li><a href="about.html"><img class="heart" src="img/circle_button.png" alt="heart" />About</a></li>
+            </div>
+
+            
+        </ul>
+    </nav>
+
+    <main id="main">
+
+        <div class="ux-image-container">
+            <h1 class="divider">୨୧ · · ♡ · · ୨୧</h1>
+            <h1 class="ux-header">THE SUNNY CREW</h1>
+            <div class="ux-image">
+                <img class="ux-home" src="img/animeheader.png" alt="The sunny crew" />
+
+            </div>
+            <div class="home-captions">
+
+                <h4 class="ux-description">In collaboration with Iris Zheng and Anna Hou.</h4>
+                    
+
+            </div>
+
+            
+
+        </div>
+
+            
+
+
+
+<div>
+        <div class="study-row">
+            <h2 class="recent">What factors and trends affect an anime’s ranking?</h2>
+            <h1 class="recent-divider">୨୧ · · ♡ · · ୨୧</h1>
+
+            <div>
+                <ul>
+                <li class="researchdescription"><strong>1. Kitsu API:</strong> Does the episode length affect the rating of an anime?</li>
+                <li class="researchdescription"><strong>2. Jikan API:</strong> Does favoring an anime character affect the rating of the anime they are in?</li>  
+                <li class="researchdescription"><strong>3. MyAnimeList API:</strong> Does favoring an anime character affect the rating of the anime they are in?</li>     
+            </ul>
+            </div>
+
+        </div>
+
+        <div class="study-row">
+            <h2 class="recent">Kitsu Data Collection</h2>
+            <h1 class="recent-divider">୨୧ · · ♡ · · ୨୧</h1>
+
+            <div>
+                <ul>
+                <li class="researchdescription"><strong>Table  1</strong> - kitsu 
+                    animeId,
+                    animeName,
+                    episodeCount,
+                    ratingRank
+                    </li>
+                <li class="researchdescription"><strong>Table  2</strong>  - ratingFrequencies 
+                    animeId,
+                    rating,
+                    count 
+                    </li>  
+              
+            </ul>
+            </div>
+
+        </div>
+
+        <div class="study-row-image">
+            <img src="img/kitsutable1.png" width = "400" alt="kitsu data">
+            <img src="img/kitsutable2.png" width = "160" alt="kitsu data">
+        </div>
+
+        <div class="study-row">
+            <h2 class="recent">Jikan Data Collection</h2>
+            <h1 class="recent-divider">୨୧ · · ♡ · · ୨୧</h1>
+
+            <div>
+                <ul>
+                <li class="researchdescription"><strong>Table 1</strong> - jikan anime_id,
+                    character_id,
+                    character_name,
+                    favorites
+                    </li>
+   
+            </ul>
+            </div>
+
+        </div>
+        <div class="study-row-image">
+            <img src="img/jikantable1.png" width = "400" alt="jikan data">
+            
+        </div>
+
+        <div class="study-row">
+            <h2 class="recent">MyAnimeList Data Collection</h2>
+            <h1 class="recent-divider">୨୧ · · ♡ · · ୨୧</h1>
+
+            <div>
+                <ul>
+                <li class="researchdescription"><strong>Table 1</strong>  - Mal Table
+                    anime_id,
+                    title,
+                    season_id,
+                    rank
+                    </li>
+                <li class="researchdescription"><strong>Table 2</strong>  - Seasons Table
+                    season_id,
+                    season
+                    </li>  
+                
+            </ul>
+            </div>
+
+        </div>
+
+        <div class="study-row-image">
+            <img src="img/maltable1.png" width = "400" alt="MyAnimeList data">
+            <img src="img/maltable2.png" width = "210" alt="MyAnimeList data">
+        </div>
+
+        <div class="study-row">
+            <h2 class="recent">Kitsu API Conclusion Visuals</h2>
+            <h1 class="recent-divider">୨୧ · · ♡ · · ୨୧</h1>
+
+            <div>
+                <ul>
+                <li class="researchdescription">There is no significant correlation between episode count and ratingRank and ratingCount </li>
+                <li class="researchdescription">Range from -1 to 1
+                    Values closer to -1 or 1 indicate strong negative and positive correlation, respectively. 0 = no correlation
+                    </li>  
+                <li class="researchdescription">Darker shades = stronger correlation</li>     
+                <li class="researchdescription">The number of episodes has a very very slight impact on the ratingRank  and has almost no correlation between ratingCount </li>
+                <li class="researchdescription">Average episode count for animes is around 25. </li>   
+            </ul>
+            </div>
+
+        </div>
+
+        <div class="study-row-image">
+            <img src="img/kitsuvis1.png" width = "400" alt="Kitsu API Conclusion Visuals">
+            <img src="img/kitsuvis2.png" width = "400" alt="Kitsu API Conclusion Visuals">
+        </div>
+
+
+        <div class="study-row">
+            <h2 class="recent">Jikan API Conclusion Visuals</h2>
+            <h1 class="recent-divider">୨୧ · · ♡ · · ୨୧</h1>
+
+            <div>
+                <ul>
+                <li class="researchdescription">The average favorite count of characters has little to no correlation with the ranking of an anime, it can be seen that the anime in rank 1 is significantly lower than animes ranked lower. </li>
+
+            </ul>
+            </div>
+
+        </div>
+ 
+
+        <div class="study-row-image">
+            <img src="img/jikanvis1.png" width = "400" alt="Jikan API Conclusion Visuals">
+            <img src="img/jikanvis2.png" width = "400" alt="Jikan API Conclusion Visuals">
+        </div>
+
+        <div class="study-row">
+            <h2 class="recent">MyAnimeList API Conclusion Visuals</h2>
+            <h1 class="recent-divider">୨୧ · · ♡ · · ୨୧</h1>
+
+            <div>
+                <ul>
+                <li class="researchdescription">On average, the most popular ranking of anime started in Fall and Summer, both having an approximate average of 54 rank (rounded) </li>
+
+            </ul>
+            </div>
+
+        </div>
+
+        <div class="study-row-image">
+            <img src="img/malvis1.png" width = "400" alt="MyAnimeList API Conclusion Visuals">
+            
+        </div>
+
+        <div class="study-row">
+            <h2 class="recent">Problems We Faced</h2>
+            <h1 class="recent-divider">୨୧ · · ♡ · · ୨୧</h1>
+
+            <div>
+                <ul>
+                    <li class="researchdescription">Initially getting our API to work and access the data we wanted</li>     
+                    <li class="researchdescription">Finding and Creating graphs that best represented what information we wanted to portray</li>
+                    <li class="researchdescription">Using 1 Api for 2 tables: hard time trying to figure out what information to put on the 2nd table</li>   
+                    <li class="researchdescription">Couldn’t find an API that provided valuable information regarding anime characters</li>     
+                    <li class="researchdescription">Jikan API needed to reference MyAnimeList API to retrieve the Anime Id’s for anime characters</li>
+                    <li class="researchdescription">Merging conflict in Github </li>   
+
+            </ul>
+            </div>
+
+        </div>
+        
+</div>
+
+
+
+    </main>
+
+
+
+
+</body>
+
+</html>
